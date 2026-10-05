@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/pda-pheanstalk",
+    "description": "Tyhp type definitions for pda/pheanstalk 8.0.2.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "8.0.2",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/pda-pheanstalk-impl": "~8.0.2.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/pda-pheanstalk-impl"
+        }
+    }
+}
